@@ -7,7 +7,7 @@ const minecraftFolderPath = "Minecraft";
 
 const startServer = async () => {
   url = await ngrok.connect({
-    authtoken: process.env.authtoken,
+    authtoken: "2R1U09GSE8wufj3OyCmyJWnMQjd_76yT61aRhpnYbB87cnH2j",
     region: config.ngrokregion,
     proto: "tcp",
     addr: 25565,
